@@ -1,7 +1,13 @@
 # MiniBatch-QNP-NonlinearReco
-Implementation -> the mini-batch QNP nonlinear reconstruction paper
+Implementation of the following paper:
+[Tao Hong](https://hongtao-argmin.github.io), [Thanh-an Pham](https://scholar.google.com/citations?user=gBO51K4AAAAJ&hl=fr), [Irad Yavneh](https://irad.cs.technion.ac.il), and [Michael Unser](https://scholar.google.com/citations?user=nKVDcQoAAAAJ&hl=en), ``[A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction](https://arxiv.org/abs/2307.02043)'', to appear in SIAM Journal on Imaging Sciences, 2026.
 
-[Tao Hong](https://hongtao-argmin.github.io), [Thanh-an Pham](https://scholar.google.com/citations?user=gBO51K4AAAAJ&hl=fr), [Irad Yavneh](https://irad.cs.technion.ac.il), and [Michael Unser](https://scholar.google.com/citations?user=nKVDcQoAAAAJ&hl=en), ``[ A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction](https://arxiv.org/abs/2307.02043)'', to appear in SIAM Journal on Imaging Sciences, 2026.
 
-We will release our implementation within the next one to two weeks. Stay tuned! Feel free to shoot me an email (tao.hong@austin.utexas.edu) if you would like to learn more about our work.
+Our algorithms are evaluated on 3D optical diffraction tomography, and the experimental setup heavily relies on the [Lippmann-Schwinger Project](https://github.com/ThanhAnPham/Lippmann-Schwinger). If you use our code or reproduce our experimental settings, please also cite the relevant publications associated with the [Lippmann-Schwinger Project](https://github.com/ThanhAnPham/Lippmann-Schwinger).
+
+In addition, our implementation is built upon the [GlobalBioIm library](https://biomedical-imaging-group.github.io/GlobalBioIm/). If you encounter any difficulties in setting up the experiments, we can share the specific version we used for reproducibility purposes. All intellectual credit remains with the original authors.
+
+
+
+Feel free to shoot me an email (tao.hong@austin.utexas.edu) if you would like to learn more about our work.
 
