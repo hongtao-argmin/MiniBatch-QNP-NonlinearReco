@@ -13,7 +13,7 @@ To use the full package, please follow these steps:
 1.	Download the GlobalBioIm library and add it to your MATLAB path.
 2.	Download this package and add it to your MATLAB path.
 3.	Navigate to /simulation/main_simulate3D.m to generate simulated data.
-Generating the Green’s function can be time-consuming. For a quick test, we provide pre-generated data for a 64^3 volume here:
+Generating the Green’s function can be time-consuming. For a quick test, we provide pre-computed Green’s function for a 64^3 volume here:
 [Download](https://drive.google.com/drive/folders/1M2cwVWwaagiqX_QiKiyW07uaq3Kpy5M9?usp=sharing)
 4.	Run ODT_Reconstruction_Born.m (demo for Born-model-based reconstruction)
     or
